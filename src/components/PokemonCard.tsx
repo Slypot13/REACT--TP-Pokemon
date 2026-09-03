@@ -1,6 +1,6 @@
 interface Pokemon {
   name: string;
-  imgSrc?: string; // le ? rend le champ optionnel
+  imgSrc?: string;
 }
 
 interface PokemonCardProps {
