@@ -7,7 +7,7 @@ interface NavBarProps {
   setPokemonName: (name: string) => void;
   pokemonList: Pokemon[];
 }
-
+//Fonction navbar : 
 function NavBar({ setPokemonName, pokemonList }: NavBarProps) {
   return (
     <nav>
