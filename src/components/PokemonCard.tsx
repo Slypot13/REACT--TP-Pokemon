@@ -6,7 +6,7 @@ interface PokemonProps {
     name: string;
   };
 }
-
+//fonction pokemoncard 
 function PokemonCard({ pokemon }: PokemonProps) {
   return (
     <figure className={styles.card}>
